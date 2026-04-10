@@ -1,0 +1,24 @@
+# ============ Web & 配置项 ============
+fastapi==0.135.3
+uvicorn==0.44.0
+pydantic==2.12.5
+pydantic-settings==2.13.1
+python-dotenv==1.2.2
+
+# ============ AI & 大模型框架 ============
+langchain==1.2.15
+langchain-openai==1.1.9
+langgraph==1.1.6
+openai==1.109.1
+
+# ============ MCP与智能体核心包 ============
+mcp==1.8.1
+fastmcp==2.14.6
+langchain-mcp-adapters==0.2.2
+amap-mcp-server==0.1.11
+hello-agents==0.2.9
+
+# ============ 网络请求与工具 ============
+requests==2.33.1
+httpx==0.28.1
+loguru==0.7.3
