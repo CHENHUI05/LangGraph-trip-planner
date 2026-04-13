@@ -73,10 +73,13 @@ LangGraph-trip-planner/
 
     - [飞书开放平台](https://open.feishu.cn/) 机器人凭证 (App ID, Secret, Encrypt Key)
 
-    - [硅基流动](https://cloud.siliconflow.cn/i/ckdnC4wD)大模型 API Key (推荐使用智谱Deepseekv3.2),新人有16的抵扣券
-
+    - [硅基流动](https://cloud.siliconflow.cn/i/ckdnC4wD)大模型 API Key (推荐使用Deepseekv3.2),新人有16的抵扣券
 
 ### 项目下载
+
+```python
+git clone https://github.com/CHENHUI05/LangGraph-trip-planner.git
+```
 
 ### 后端安装
 
@@ -227,5 +230,4 @@ CC BY-NC-SA 4.0
 - [HelloAgents框架](https://github.com/jjyaoao/HelloAgents) - 智能体框架
 - [高德地图开放平台](https://lbs.amap.com/) - 地图服务
 - [amap-mcp-server](https://github.com/sugarforever/amap-mcp-server) - 高德地图MCP服务器
-
 
