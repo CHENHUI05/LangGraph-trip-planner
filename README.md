@@ -141,31 +141,31 @@ npm run dev
 
 ![1](image/2.png)
 
-<center>图 1 旅行助手规划进行页面</center> 
+<p align="center"><b>图 1 旅行助手规划进行页面</b></p>
 
 ![2](image/1.jpg)
 
-<center>图 2 飞书规划进行页面</center> 
+<p align="center"><b>图 2 飞书规划进行页面</b></p>
 
 随后加载成功，该页面会清晰展示行程概览、预算明细、景点地图、每日行程详情和天气信息，如图 3，4 ，5所示。
 
 ![3](image/3.jpg)
 
-<center>图 3 旅行助手规划完成页面</center> 
+<p align="center"><b>图 3 旅行助手规划完成页面</b></p> 
 
 ![4](image/4.jpg)
 
-<center>图 4 旅行助手规划完成页面</center> 
+<p align="center"><b>图 4 旅行助手规划完成页面</b></p> 
 
 ![5](image/5.jpg)
 
-<center>图 5 旅行助手规划完成页面</center> 
+<p align="center"><b>图 4 旅行助手规划完成页面</b></p>
 
 如果用户需要个性化调整，可以点击“编辑行程”按钮，自由调整景点顺序或删除某个景点，如图 6 所示。规划完成后，通过“导出行程”下拉菜单，即可将最终方案轻松保存为图片或 PDF 文件，方便随时查阅。
 
 ![6](image/6.jpg)
 
-<center>图 6 旅行助手编辑页面</center> 
+<p align="center"><b>图 6 旅行助手编辑页面</b></p>
 
 ## 📝 使用指南
 
