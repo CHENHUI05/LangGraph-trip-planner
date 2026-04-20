@@ -1,0 +1,275 @@
+{
+  "city": "云南",
+  "start_date": "2026-04-22",
+  "end_date": "2026-04-25",
+  "days": [
+    {
+      "date": "2026-04-22",
+      "day_index": 0,
+      "description": "第1天：抵达昆明，游览市区经典景点。",
+      "transportation": "公共交通",
+      "accommodation": "经济型酒店",
+      "hotel": {
+        "name": "汉庭酒店(昆明翠湖潘家湾地铁站店)",
+        "address": "东风西路241号9层",
+        "location": null,
+        "price_range": "",
+        "rating": "",
+        "distance": "",
+        "type": "经济型酒店",
+        "estimated_cost": 300
+      },
+      "attractions": [
+        {
+          "name": "滇池海埂公园",
+          "address": "滇池路1318号",
+          "location": {
+            "longitude": 102.676,
+            "latitude": 24.971
+          },
+          "visit_duration": 120,
+          "description": "欣赏滇池风光，感受高原湖泊的壮阔。",
+          "category": "自然风光",
+          "rating": null,
+          "photos": null,
+          "poi_id": "",
+          "image_url": null,
+          "ticket_price": 0
+        },
+        {
+          "name": "官渡古镇",
+          "address": "广福路",
+          "location": {
+            "longitude": 102.748,
+            "latitude": 24.958
+          },
+          "visit_duration": 90,
+          "description": "历史文化名镇，体验昆明老城风貌。",
+          "category": "历史文化",
+          "rating": null,
+          "photos": null,
+          "poi_id": "",
+          "image_url": null,
+          "ticket_price": 0
+        }
+      ],
+      "meals": [
+        {
+          "type": "breakfast",
+          "name": "酒店早餐",
+          "address": null,
+          "location": null,
+          "description": "酒店内用餐",
+          "estimated_cost": 30
+        },
+        {
+          "type": "lunch",
+          "name": "官渡古镇特色小吃",
+          "address": "官渡古镇内",
+          "location": null,
+          "description": "品尝官渡粑粑、米线等地道小吃。",
+          "estimated_cost": 50
+        },
+        {
+          "type": "dinner",
+          "name": "滇池附近餐厅",
+          "address": "滇池路附近",
+          "location": null,
+          "description": "享用云南特色菜肴。",
+          "estimated_cost": 80
+        }
+      ]
+    },
+    {
+      "date": "2026-04-23",
+      "day_index": 1,
+      "description": "第2天：游览昆明标志性自然奇观。",
+      "transportation": "公共交通",
+      "accommodation": "经济型酒店",
+      "hotel": {
+        "name": "汉庭酒店(昆明翠湖潘家湾地铁站店)",
+        "address": "东风西路241号9层",
+        "location": null,
+        "price_range": "",
+        "rating": "",
+        "distance": "",
+        "type": "经济型酒店",
+        "estimated_cost": 300
+      },
+      "attractions": [
+        {
+          "name": "石林风景区",
+          "address": "石林街道",
+          "location": {
+            "longitude": 103.3,
+            "latitude": 24.82
+          },
+          "visit_duration": 240,
+          "description": "世界自然遗产，欣赏奇特的喀斯特地貌。",
+          "category": "自然风光",
+          "rating": null,
+          "photos": null,
+          "poi_id": "",
+          "image_url": null,
+          "ticket_price": 130
+        },
+        {
+          "name": "斗南湿地公园",
+          "address": "斗彩段与环湖东路交叉口",
+          "location": {
+            "longitude": 102.792,
+            "latitude": 24.902
+          },
+          "visit_duration": 90,
+          "description": "湿地生态公园，休闲散步，观赏花卉。",
+          "category": "生态旅游",
+          "rating": null,
+          "photos": null,
+          "poi_id": "",
+          "image_url": null,
+          "ticket_price": 0
+        }
+      ],
+      "meals": [
+        {
+          "type": "breakfast",
+          "name": "酒店早餐",
+          "address": null,
+          "location": null,
+          "description": "酒店内用餐",
+          "estimated_cost": 30
+        },
+        {
+          "type": "lunch",
+          "name": "石林景区附近餐厅",
+          "address": "石林风景区附近",
+          "location": null,
+          "description": "简单午餐。",
+          "estimated_cost": 50
+        },
+        {
+          "type": "dinner",
+          "name": "市区特色餐厅",
+          "address": "昆明市区",
+          "location": null,
+          "description": "品尝过桥米线等云南名菜。",
+          "estimated_cost": 80
+        }
+      ]
+    },
+    {
+      "date": "2026-04-24",
+      "day_index": 2,
+      "description": "第3天：体验昆明湿地生态与花卉文化。",
+      "transportation": "公共交通",
+      "accommodation": "经济型酒店",
+      "hotel": {
+        "name": "汉庭酒店(昆明翠湖潘家湾地铁站店)",
+        "address": "东风西路241号9层",
+        "location": null,
+        "price_range": "",
+        "rating": "",
+        "distance": "",
+        "type": "经济型酒店",
+        "estimated_cost": 300
+      },
+      "attractions": [
+        {
+          "name": "昆明捞渔河湿地公园",
+          "address": "环湖东路",
+          "location": {
+            "longitude": 102.833,
+            "latitude": 24.867
+          },
+          "visit_duration": 120,
+          "description": "亲近自然，观赏湿地植被和水鸟。",
+          "category": "生态旅游",
+          "rating": null,
+          "photos": null,
+          "poi_id": "",
+          "image_url": null,
+          "ticket_price": 0
+        },
+        {
+          "name": "大理古城",
+          "address": "护国路172号",
+          "location": {
+            "longitude": 100.164,
+            "latitude": 25.697
+          },
+          "visit_duration": 180,
+          "description": "感受南诏古国的历史韵味和民族风情。",
+          "category": "历史文化",
+          "rating": null,
+          "photos": null,
+          "poi_id": "",
+          "image_url": null,
+          "ticket_price": 0
+        }
+      ],
+      "meals": [
+        {
+          "type": "breakfast",
+          "name": "酒店早餐",
+          "address": null,
+          "location": null,
+          "description": "酒店内用餐",
+          "estimated_cost": 30
+        },
+        {
+          "type": "lunch",
+          "name": "湿地公园附近简餐",
+          "address": "捞渔河湿地公园附近",
+          "location": null,
+          "description": "方便快捷的午餐。",
+          "estimated_cost": 40
+        },
+        {
+          "type": "dinner",
+          "name": "大理古城特色餐厅",
+          "address": "大理古城内",
+          "location": null,
+          "description": "品尝白族风味菜肴。",
+          "estimated_cost": 80
+        }
+      ]
+    }
+  ],
+  "weather_info": [
+    {
+      "date": "2026-04-22",
+      "day_weather": "多云",
+      "night_weather": "晴",
+      "day_temp": 26,
+      "night_temp": 14,
+      "wind_direction": "西风",
+      "wind_power": "1-3级"
+    },
+    {
+      "date": "2026-04-23",
+      "day_weather": "晴",
+      "night_weather": "多云",
+      "day_temp": 25,
+      "night_temp": 12,
+      "wind_direction": "北风",
+      "wind_power": "1-3级"
+    },
+    {
+      "date": "2026-04-24",
+      "day_weather": "多云",
+      "night_weather": "多云",
+      "day_temp": 24,
+      "night_temp": 12,
+      "wind_direction": "北风",
+      "wind_power": "1-3级"
+    }
+  ],
+  "overall_suggestions": "行程以昆明为主，兼顾大理古城一日体验。天气晴好，温度适宜，请注意早晚温差。使用公共交通，请提前查询班次。所有景点均来自提供的列表，酒店为经济型酒店。",
+  "budget": {
+    "total_attractions": 130,
+    "total_hotels": 900,
+    "total_meals": 470,
+    "total_transportation": 200,
+    "total": 1700
+  }
+}

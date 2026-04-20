@@ -2,6 +2,7 @@
 
 from fastapi import APIRouter, Request, BackgroundTasks
 from ...config import get_settings
+from fastapi.responses import JSONResponse
 
 router = APIRouter(prefix="/feishu", tags=["飞书集成"])
 
@@ -75,12 +76,16 @@ async def process_agent_in_background(open_id: str, user_text: str):
 
 @router.post("/webhook")
 async def feishu_webhook(request: Request, background_tasks: BackgroundTasks):
+    print("🔥 RAW BODY:", await request.body())
+    print("🔥 JSON:", await request.json())
     data = await request.json()
     settings = get_settings()
 
     # 处理 Challenge
-    if "challenge" in data:
-        return {"challenge": data["challenge"]}
+    if data.get("type") == "url_verification":
+        return JSONResponse(
+            content={"challenge": data.get("challenge")}
+        )
 
     # 解析 Event
     event_info = data.get("event", {})
