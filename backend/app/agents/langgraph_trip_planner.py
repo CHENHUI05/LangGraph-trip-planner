@@ -16,7 +16,7 @@ from ..services.amap_service import get_amap_langchain_service
 from ..models.schemas import Attraction, DayPlan, Location, Meal, TripPlan, TripRequest
 
 
-# ============ Agent提示词 ============
+# ============ Agent提示词 ============``````
 ATTRACTION_AGENT_PROMPT = """你是景点搜索专家。你的任务是根据城市和用户偏好搜索合适的景点。
 **重要提示:**
 1. 必须使用工具 (amap_search) 搜索真实景点，绝不编造！

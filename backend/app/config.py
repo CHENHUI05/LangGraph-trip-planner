@@ -5,7 +5,7 @@ from typing import List
 from pydantic_settings import BaseSettings
 from dotenv import load_dotenv
 
-# 加载环境变量
+# 加载环境变量````
 load_dotenv()
 
 class Settings(BaseSettings):
