@@ -37,7 +37,10 @@ def get_langchain_llm() -> ChatOpenAI:
             api_key=api_key,
             base_url=base_url,
             model=model_name,
-            temperature=0.7
+            temperature=0.7,
+            extra_body={
+                "thinking": {"type": "disabled"}  # 正确的方式
+            }
         )
         
         print(f"✅ LangChain LLM服务初始化成功")

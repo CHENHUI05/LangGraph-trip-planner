@@ -1,0 +1,259 @@
+{
+  "city": "云南",
+  "start_date": "2026-04-22",
+  "end_date": "2026-04-25",
+  "days": [
+    {
+      "date": "2026-04-22",
+      "day_index": 0,
+      "description": "第1天：抵达昆明，游览市区历史文化景点。",
+      "transportation": "公共交通",
+      "accommodation": "经济型酒店",
+      "hotel": {
+        "name": "汉庭酒店(昆明金马坊店)",
+        "address": "东寺街870号，近金马坊",
+        "location": null,
+        "price_range": "",
+        "rating": "",
+        "distance": "",
+        "type": "经济型酒店",
+        "estimated_cost": 300
+      },
+      "attractions": [
+        {
+          "name": "金马碧鸡坊",
+          "address": "金碧街道碧鸡巷2-3号",
+          "location": {
+            "longitude": 102.712,
+            "latitude": 25.038
+          },
+          "visit_duration": 60,
+          "description": "昆明的地标性建筑，历史悠久，是拍照留念的好地方。",
+          "category": "历史文化",
+          "rating": null,
+          "photos": null,
+          "poi_id": "",
+          "image_url": null,
+          "ticket_price": 0
+        },
+        {
+          "name": "昆明老街钱王街",
+          "address": "文庙直街钱王街3号(五一路地铁站F口步行480米)",
+          "location": {
+            "longitude": 102.706,
+            "latitude": 25.043
+          },
+          "visit_duration": 90,
+          "description": "感受昆明老城风貌，品尝当地小吃，体验市井文化。",
+          "category": "历史文化",
+          "rating": null,
+          "photos": null,
+          "poi_id": "",
+          "image_url": null,
+          "ticket_price": 0
+        }
+      ],
+      "meals": [
+        {
+          "type": "breakfast",
+          "name": "酒店早餐或附近小吃店",
+          "address": null,
+          "location": null,
+          "description": "米线、饵块等当地特色早餐。",
+          "estimated_cost": 20
+        },
+        {
+          "type": "lunch",
+          "name": "老街附近餐馆",
+          "address": null,
+          "location": null,
+          "description": "品尝汽锅鸡、过桥米线等云南菜。",
+          "estimated_cost": 50
+        },
+        {
+          "type": "dinner",
+          "name": "金马坊附近餐厅",
+          "address": null,
+          "location": null,
+          "description": "享用晚餐，体验昆明夜生活。",
+          "estimated_cost": 60
+        }
+      ]
+    },
+    {
+      "date": "2026-04-23",
+      "day_index": 1,
+      "description": "第2天：游览昆明自然与人文景观。",
+      "transportation": "公共交通",
+      "accommodation": "经济型酒店",
+      "hotel": {
+        "name": "汉庭酒店(昆明金马坊店)",
+        "address": "东寺街870号，近金马坊",
+        "location": null,
+        "price_range": "",
+        "rating": "",
+        "distance": "",
+        "type": "经济型酒店",
+        "estimated_cost": 300
+      },
+      "attractions": [
+        {
+          "name": "圆通禅寺",
+          "address": "圆通街30号",
+          "location": {
+            "longitude": 102.705,
+            "latitude": 25.052
+          },
+          "visit_duration": 90,
+          "description": "昆明最古老的佛教寺院之一，环境清幽，建筑精美。",
+          "category": "宗教文化",
+          "rating": null,
+          "photos": null,
+          "poi_id": "",
+          "image_url": null,
+          "ticket_price": 10
+        },
+        {
+          "name": "昆明动物园",
+          "address": "青年路92号",
+          "location": {
+            "longitude": 102.718,
+            "latitude": 25.052
+          },
+          "visit_duration": 120,
+          "description": "观赏各种动物，适合家庭和亲子游。",
+          "category": "公园动物园",
+          "rating": null,
+          "photos": null,
+          "poi_id": "",
+          "image_url": null,
+          "ticket_price": 20
+        }
+      ],
+      "meals": [
+        {
+          "type": "breakfast",
+          "name": "酒店早餐",
+          "address": null,
+          "location": null,
+          "description": "酒店内或附近早餐店。",
+          "estimated_cost": 20
+        },
+        {
+          "type": "lunch",
+          "name": "圆通寺或动物园附近餐馆",
+          "address": null,
+          "location": null,
+          "description": "简单午餐，如炒饭、面条。",
+          "estimated_cost": 40
+        },
+        {
+          "type": "dinner",
+          "name": "市区特色餐厅",
+          "address": null,
+          "location": null,
+          "description": "尝试野生菌火锅或其他云南特色菜。",
+          "estimated_cost": 80
+        }
+      ]
+    },
+    {
+      "date": "2026-04-24",
+      "day_index": 2,
+      "description": "第3天：前往石林，感受世界自然遗产的奇观。",
+      "transportation": "公共交通（长途客车/火车）",
+      "accommodation": "经济型酒店",
+      "hotel": {
+        "name": "汉庭酒店(昆明金马坊店)",
+        "address": "东寺街870号，近金马坊",
+        "location": null,
+        "price_range": "",
+        "rating": "",
+        "distance": "",
+        "type": "经济型酒店",
+        "estimated_cost": 300
+      },
+      "attractions": [
+        {
+          "name": "石林风景区",
+          "address": "石林街道",
+          "location": {
+            "longitude": 103.301,
+            "latitude": 24.815
+          },
+          "visit_duration": 240,
+          "description": "世界自然遗产，以奇特的喀斯特地貌闻名，被誉为“天下第一奇观”。",
+          "category": "自然风光",
+          "rating": null,
+          "photos": null,
+          "poi_id": "",
+          "image_url": null,
+          "ticket_price": 130
+        }
+      ],
+      "meals": [
+        {
+          "type": "breakfast",
+          "name": "酒店早餐或打包早餐",
+          "address": null,
+          "location": null,
+          "description": "为赶路准备简便早餐。",
+          "estimated_cost": 15
+        },
+        {
+          "type": "lunch",
+          "name": "石林景区内或附近餐馆",
+          "address": null,
+          "location": null,
+          "description": "品尝当地农家菜。",
+          "estimated_cost": 50
+        },
+        {
+          "type": "dinner",
+          "name": "返回昆明市区用餐",
+          "address": null,
+          "location": null,
+          "description": "在酒店附近选择餐厅享用晚餐。",
+          "estimated_cost": 60
+        }
+      ]
+    }
+  ],
+  "weather_info": [
+    {
+      "date": "2026-04-22",
+      "day_weather": "晴",
+      "night_weather": "晴",
+      "day_temp": 26,
+      "night_temp": 14,
+      "wind_direction": "北风",
+      "wind_power": "1-3级"
+    },
+    {
+      "date": "2026-04-23",
+      "day_weather": "晴",
+      "night_weather": "多云",
+      "day_temp": 25,
+      "night_temp": 12,
+      "wind_direction": "北风",
+      "wind_power": "1-3级"
+    },
+    {
+      "date": "2026-04-24",
+      "day_weather": "多云",
+      "night_weather": "多云",
+      "day_temp": 24,
+      "night_temp": 12,
+      "wind_direction": "北风",
+      "wind_power": "1-3级"
+    }
+  ],
+  "overall_suggestions": "本次3天行程集中在昆明及周边，以公共交通为主。天气晴好，适合户外活动。石林距离市区较远，需预留充足交通时间。建议提前查询并预订昆明至石林的班车或火车票。所有景点门票为预估价格，请以现场为准。餐饮费用为人均预估，可根据个人消费习惯调整。",
+  "budget": {
+    "total_attractions": 160,
+    "total_hotels": 900,
+    "total_meals": 395,
+    "total_transportation": 200,
+    "total": 1655
+  }
+}

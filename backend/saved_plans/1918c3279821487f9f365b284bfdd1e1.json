@@ -1,0 +1,279 @@
+{
+  "city": "北京",
+  "start_date": "2026-04-21",
+  "end_date": "2026-04-24",
+  "days": [
+    {
+      "date": "2026-04-21",
+      "day_index": 0,
+      "description": "第1天：游览天安门广场、故宫博物院和中国国家博物馆，感受北京的历史文化核心。",
+      "transportation": "公共交通",
+      "accommodation": "经济型酒店",
+      "hotel": {
+        "name": "汉庭酒店（北京前门店）",
+        "address": "前门地区",
+        "location": null,
+        "price_range": "",
+        "rating": "",
+        "distance": "",
+        "type": "经济型酒店",
+        "estimated_cost": 300
+      },
+      "attractions": [
+        {
+          "name": "天安门广场",
+          "address": "东长安街",
+          "location": {
+            "longitude": 116.3975,
+            "latitude": 39.9037
+          },
+          "visit_duration": 90,
+          "description": "世界上最大的城市广场，中国的象征之一。",
+          "category": "历史文化",
+          "rating": null,
+          "photos": null,
+          "poi_id": "",
+          "image_url": null,
+          "ticket_price": 0
+        },
+        {
+          "name": "故宫博物院",
+          "address": "景山前街4号",
+          "location": {
+            "longitude": 116.3972,
+            "latitude": 39.9163
+          },
+          "visit_duration": 240,
+          "description": "明清两代的皇家宫殿，世界上现存规模最大、保存最为完整的木质结构古建筑群之一。",
+          "category": "历史文化",
+          "rating": null,
+          "photos": null,
+          "poi_id": "",
+          "image_url": null,
+          "ticket_price": 60
+        },
+        {
+          "name": "中国国家博物馆",
+          "address": "东长安街16号天安门广场东侧",
+          "location": {
+            "longitude": 116.3985,
+            "latitude": 39.9042
+          },
+          "visit_duration": 180,
+          "description": "中国最大的综合性历史与艺术博物馆，收藏了大量珍贵文物。",
+          "category": "博物馆",
+          "rating": null,
+          "photos": null,
+          "poi_id": "",
+          "image_url": null,
+          "ticket_price": 0
+        }
+      ],
+      "meals": [
+        {
+          "type": "breakfast",
+          "name": "酒店早餐或附近早点铺",
+          "address": null,
+          "location": null,
+          "description": "简单快捷的早餐，为一天的行程储备能量。",
+          "estimated_cost": 20
+        },
+        {
+          "type": "lunch",
+          "name": "故宫附近餐厅",
+          "address": null,
+          "location": null,
+          "description": "游览故宫后，在附近品尝北京家常菜或简餐。",
+          "estimated_cost": 50
+        },
+        {
+          "type": "dinner",
+          "name": "前门大街美食",
+          "address": null,
+          "location": null,
+          "description": "返回前门酒店附近，在前门大街品尝北京烤鸭、炸酱面等地道美食。",
+          "estimated_cost": 80
+        }
+      ]
+    },
+    {
+      "date": "2026-04-22",
+      "day_index": 1,
+      "description": "第2天：攀登八达岭长城，下午游览颐和园，体验皇家气派与壮丽山河。",
+      "transportation": "公共交通",
+      "accommodation": "经济型酒店",
+      "hotel": {
+        "name": "汉庭酒店（北京前门店）",
+        "address": "前门地区",
+        "location": null,
+        "price_range": "",
+        "rating": "",
+        "distance": "",
+        "type": "经济型酒店",
+        "estimated_cost": 300
+      },
+      "attractions": [
+        {
+          "name": "八达岭长城",
+          "address": "G6京藏高速58号出口",
+          "location": {
+            "longitude": 116.02,
+            "latitude": 40.359
+          },
+          "visit_duration": 240,
+          "description": "明长城中保存最好、最具代表性的一段，被誉为“天下九塞”之一。",
+          "category": "历史遗迹",
+          "rating": null,
+          "photos": null,
+          "poi_id": "",
+          "image_url": null,
+          "ticket_price": 40
+        },
+        {
+          "name": "颐和园",
+          "address": "新建宫门路19号",
+          "location": {
+            "longitude": 116.2754,
+            "latitude": 39.9999
+          },
+          "visit_duration": 180,
+          "description": "中国现存规模最大、保存最完整的皇家园林，被誉为“皇家园林博物馆”。",
+          "category": "皇家园林",
+          "rating": null,
+          "photos": null,
+          "poi_id": "",
+          "image_url": null,
+          "ticket_price": 30
+        }
+      ],
+      "meals": [
+        {
+          "type": "breakfast",
+          "name": "酒店早餐",
+          "address": null,
+          "location": null,
+          "description": "在酒店享用早餐后出发前往长城。",
+          "estimated_cost": 20
+        },
+        {
+          "type": "lunch",
+          "name": "长城脚下农家菜",
+          "address": null,
+          "location": null,
+          "description": "攀登长城后，在景区附近品尝地道的农家风味。",
+          "estimated_cost": 60
+        },
+        {
+          "type": "dinner",
+          "name": "颐和园附近或回程途中餐厅",
+          "address": null,
+          "location": null,
+          "description": "游览颐和园后，在附近或返回市区的路上解决晚餐。",
+          "estimated_cost": 70
+        }
+      ]
+    },
+    {
+      "date": "2026-04-23",
+      "day_index": 2,
+      "description": "第3天：参观雍和宫与恭王府，漫步南锣鼓巷，体验北京的胡同文化与宗教建筑。",
+      "transportation": "公共交通",
+      "accommodation": "经济型酒店",
+      "hotel": {
+        "name": "汉庭酒店（北京前门店）",
+        "address": "前门地区",
+        "location": null,
+        "price_range": "",
+        "rating": "",
+        "distance": "",
+        "type": "经济型酒店",
+        "estimated_cost": 300
+      },
+      "attractions": [
+        {
+          "name": "雍和宫",
+          "address": "雍和宫大街28号",
+          "location": {
+            "longitude": 116.4167,
+            "latitude": 39.9494
+          },
+          "visit_duration": 120,
+          "description": "北京最大的藏传佛教寺院，曾是雍正皇帝即位前的府邸。",
+          "category": "宗教建筑",
+          "rating": null,
+          "photos": null,
+          "poi_id": "",
+          "image_url": null,
+          "ticket_price": 25
+        },
+        {
+          "name": "恭王府博物馆",
+          "address": "前海西街17号",
+          "location": {
+            "longitude": 116.3858,
+            "latitude": 39.9389
+          },
+          "visit_duration": 150,
+          "description": "清代规模最大的一座王府，曾先后作为和珅、永璘的宅邸，后恭亲王奕訢居住。",
+          "category": "历史建筑",
+          "rating": null,
+          "photos": null,
+          "poi_id": "",
+          "image_url": null,
+          "ticket_price": 40
+        },
+        {
+          "name": "南锣鼓巷",
+          "address": "交道口街道南大街",
+          "location": {
+            "longitude": 116.404,
+            "latitude": 39.94
+          },
+          "visit_duration": 120,
+          "description": "北京最古老的街区之一，如今是充满创意小店、咖啡馆和特色美食的胡同街区。",
+          "category": "胡同文化",
+          "rating": null,
+          "photos": null,
+          "poi_id": "",
+          "image_url": null,
+          "ticket_price": 0
+        }
+      ],
+      "meals": [
+        {
+          "type": "breakfast",
+          "name": "酒店早餐",
+          "address": null,
+          "location": null,
+          "description": "在酒店享用早餐。",
+          "estimated_cost": 20
+        },
+        {
+          "type": "lunch",
+          "name": "雍和宫或恭王府附近餐厅",
+          "address": null,
+          "location": null,
+          "description": "参观完雍和宫或恭王府后，在周边寻找餐厅用餐。",
+          "estimated_cost": 50
+        },
+        {
+          "type": "dinner",
+          "name": "南锣鼓巷特色小吃",
+          "address": null,
+          "location": null,
+          "description": "在南锣鼓巷品尝各种北京及全国各地的特色小吃和创意美食。",
+          "estimated_cost": 80
+        }
+      ]
+    }
+  ],
+  "weather_info": [],
+  "overall_suggestions": "本次3天北京行程覆盖了历史文化核心（天安门、故宫、国博）、长城与皇家园林（八达岭、颐和园）以及胡同文化与宗教建筑（雍和宫、恭王府、南锣鼓巷）。全程使用公共交通，住宿选择位于市中心前门的经济型酒店，交通便利。请注意，2026年4月下旬北京天气可能多变，建议出行前再次确认天气预报，并携带雨具和适合早晚温差的衣物。故宫、国家博物馆等热门景点建议提前在线预约门票。长城路程较远，请预留充足交通时间。",
+  "budget": {
+    "total_attractions": 195,
+    "total_hotels": 900,
+    "total_meals": 450,
+    "total_transportation": 150,
+    "total": 1695
+  }
+}

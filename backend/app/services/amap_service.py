@@ -68,8 +68,8 @@ class AmapLangchainService:
 
     async def _mcp_call_tool_async(self, name: str, arguments: Dict[str, Any]) -> str:
         print(f"🧩 🔧 Agent 触发底层 MCP 工具: {name}({arguments})")
-        async with stdio_client(self.mcp_server_params) as (read, write):
-            async with ClientSession(read, write) as session:
+        async with stdio_client(self.mcp_server_params) as (read, write):       # 启动一个 MCP 客户端，通过 stdio 和 MCP Server 通信
+            async with ClientSession(read, write) as session:                   # 建立一次“对话连接”
                 await session.initialize()
                 result = await session.call_tool(name, arguments=arguments)
                 parts: List[str] = [c.text for c in result.content if getattr(c, "type", None) == "text"]

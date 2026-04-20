@@ -12,10 +12,10 @@ langgraph==1.1.6
 openai==1.109.1
 
 # ============ MCP与智能体核心包 ============
-mcp==1.8.1
-fastmcp==2.14.6
-langchain-mcp-adapters==0.2.2
-amap-mcp-server==0.1.11
+mcp>=1.8.1
+fastmcp>=1.0.0
+langchain-mcp-adapters>=0.2.0
+amap-mcp-server>=0.1.0
 hello-agents==0.2.9
 
 # ============ 网络请求与工具 ============

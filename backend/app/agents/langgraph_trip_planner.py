@@ -8,6 +8,7 @@ from typing import Annotated, Sequence, TypedDict
 from langchain_core.messages import BaseMessage, HumanMessage, SystemMessage
 from langgraph.graph import END, StateGraph
 from langgraph.prebuilt import create_react_agent
+from langchain_core.output_parsers import PydanticOutputParser
 
 # 引入本项目的依赖
 from ..services.llm_service import get_langchain_llm
@@ -175,12 +176,17 @@ class LangGraphTripPlanner:
         4. 🏨 酒店类型必须是中文：`hotel.type` 字段必须是中文（如'经济型酒店'），绝对禁止输出 'hotel' 等英文单词！
         5. 绝对静默，只输出结构化数据。
         """)
+        
+        parser = PydanticOutputParser(pydantic_object=TripPlan)
+        format_instructions = parser.get_format_instructions()
 
-        user_msg = HumanMessage(content=planner_query)
+        user_msg = HumanMessage(content=planner_query + "\n\n" + format_instructions)
 
         try:
-            structured_llm = self.llm.with_structured_output(TripPlan)
-            final_plan = await structured_llm.ainvoke([simplified_prompt, user_msg])
+            response = await self.llm.ainvoke([simplified_prompt, user_msg])
+            final_plan = parser.parse(response.content)
+            #structured_llm = self.llm.with_structured_output(TripPlan)
+            #final_plan = await structured_llm.ainvoke([simplified_prompt, user_msg])
 
             # ====================================================
             # 🛠️ 核武级修复 1：算法绝对控制日期与天数
