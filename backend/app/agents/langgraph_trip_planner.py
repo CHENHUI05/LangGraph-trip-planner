@@ -79,6 +79,8 @@ class LangGraphTripPlanner:
         self.graph = self._build_graph()
         print("✅ Multi-Agent 系统初始化成功")
 
+    # A->B->C->D
+    # 协同设计过程中，在搜索中API返回空需要"回退"到‘景点规划’节点
     def _build_graph(self):
         workflow = StateGraph(AgentState)
 
@@ -87,6 +89,7 @@ class LangGraphTripPlanner:
         workflow.add_node("search_hotels", self.search_hotels_node)
         workflow.add_node("generate_plan", self.generate_plan_node)
 
+        # 构建工作流
         workflow.set_entry_point("search_attractions")
         workflow.add_edge("search_attractions", "query_weather")
         workflow.add_edge("query_weather", "search_hotels")
